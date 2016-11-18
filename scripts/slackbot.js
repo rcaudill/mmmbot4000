@@ -19,10 +19,11 @@
 //
 
 module.exports = function(robot) {
-
-   robot.hear(/cheese?/, function(msg) {
-     return msg.send("Javascript is pretty cool I guess!");
-   });
+  //  YOUR CODE HERE
+  //  Example
+  //  robot.hear(/javascript/i, function(msg) {
+  //    return msg.send("I love JavaScript!");
+  //  });
 };
 
 /************************************
