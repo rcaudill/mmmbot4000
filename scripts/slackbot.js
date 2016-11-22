@@ -18,13 +18,13 @@
 // <tifs>
 //
 
-module.exports = function(robot) {
-   // YOUR CODE HERE
-   // Example
-   robot.hear(/cheese/i, function(msg) {
-     return msg.send("let's get started");
-   });
-};
+// module.exports = function(robot) {
+//    // YOUR CODE HERE
+//    // Example
+//    robot.hear(/cheese/i, function(msg) {
+//      return msg.send("let's get started");
+//    });
+// };
 
 /************************************
 
@@ -66,9 +66,12 @@ hansonFacts = [
 ];
 
 module.exports = function(robot) {
-  robot.hear(/^bluebot (.*)?/i, function(msg) {
+  return robot.hear(/^bluebot (.*)?/i, function(msg) {
     return msg.send(msg.random(hansonFacts));
   });
+};
+
+module.exports = function(robot) {
   robot.respond(/bop me/i, function(msg) {
     return msg.send("https://www.youtube.com/watch?v=NHozn0YXAeE");
   });
