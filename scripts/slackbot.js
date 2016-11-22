@@ -65,8 +65,8 @@ hansonFacts = [
 "Zac has been known to eat whole packets of sugar, straight!"
 ];
 
-module.exports = function(robot) {
-  return robot.hear(/^bluebot (.*)?/i, function(msg) {
+module.exports = function(hanson) {
+  return hanson.hear(/^bluebot (.*)?/i, function(msg) {
     return msg.send(msg.random(hansonFacts));
   });
 };
