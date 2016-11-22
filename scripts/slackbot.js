@@ -66,7 +66,7 @@ hansonFacts = [
 ];
 
 module.exports = function(robot) {
-  return robot.hear(/bluebot (.*)?/i, function(msg) {
+  return robot.hear(/^bluebot (.*)?/i, function(msg) {
     return msg.send(msg.random(hansonFacts));
   });
 };
