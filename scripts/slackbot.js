@@ -19,11 +19,11 @@
 //
 
 module.exports = function(robot) {
-  //  YOUR CODE HERE
-  //  Example
-  //  robot.hear(/javascript/i, function(msg) {
-  //    return msg.send("I love JavaScript!");
-  //  });
+   // YOUR CODE HERE
+   // Example
+   robot.hear(/cheese/, function(msg) {
+     return msg.send("let's get started");
+   });
 };
 
 /************************************
