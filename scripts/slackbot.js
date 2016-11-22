@@ -66,10 +66,10 @@ hansonFacts = [
 ];
 
 module.exports = function(robot) {
-  return robot.hear(/^bluebot (.*)?/i, function(msg) {
+  robot.hear(/^bluebot (.*)?/i, function(msg) {
     return msg.send(msg.random(hansonFacts));
   });
-  return robot.respond(/bop me/i, function(msg) {
+  robot.respond(/bop me/i, function(msg) {
     return msg.send("https://www.youtube.com/watch?v=NHozn0YXAeE");
   });
 };
