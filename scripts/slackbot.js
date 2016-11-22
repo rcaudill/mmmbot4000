@@ -69,7 +69,7 @@ module.exports = function(robot) {
   robot.respond(/bop me/i, function(msg) {
     return msg.send("https://www.youtube.com/watch?v=NHozn0YXAeE");
   });
-  return robot.hear(/^bluebot (.*)?/i, function(msg) {
+  return robot.hear(/^bluebot (.*)\u003F/i, function(msg) {
     return msg.send(msg.random(hansonFacts));
   });
 };
