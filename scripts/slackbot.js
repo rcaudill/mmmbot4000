@@ -52,7 +52,7 @@ hansonFacts = [
 "It's a combination of things. But for sure, Taylor uses Flex shampoo.",
 "You asking that makes me feel like we're getting off-task. Ike use Pantene Pro-V.",
 "Ike likes to wear high-top sneakers or hiking boots.",
-"I mean, of course! On days off Ike likes to hang out at the mall.",
+"Let's stay focused. On days off Ike likes to hang out at the mall.",
 "Never forget that Zac's favorite school subject is Math.",
 "I hear you loud and clear. In the 'MMMBop' video, Taylor is driving the same car Sandra Bullock did in speed 2.",
 "Here's what you really need to know. Ike got his first guitar from a pawn shop in Tulsa.",
