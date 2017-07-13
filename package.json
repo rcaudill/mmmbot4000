@@ -1,6 +1,8 @@
 {
   "name": "MMMbot",
   "version": "0.0.0",
+  "engines": {
+    "node": "6.11.1",
   "private": true,
   "author": "Tif Slama <tif.slama@gmail.com>",
   "description": "A robot that instantaneously delivers the lyrics and positivity of the 90's pop music sensation, Hanson.",
